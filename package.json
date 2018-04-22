@@ -1,0 +1,26 @@
+{
+  "name": "arrispwod-cli",
+  "version": "1.0.0",
+  "description": "Arris password of day generator for cli",
+  "main": "src/index.js",
+  "repository": "https://github.com/jesusgoku/arrispwod-cli",
+  "author": "Jesús Urrutia <jesus.urrutia@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "arrispwod": "src/index.js"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "test": "node \"$(npm bin)/mocha\" ./test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "arrispwod": "^1.0.0",
+    "yargs": "^11.0.0"
+  }
+}
