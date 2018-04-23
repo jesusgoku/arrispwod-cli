@@ -1,6 +1,6 @@
 {
   "name": "arrispwod-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arris password of day generator for cli",
   "main": "src/index.js",
   "repository": "https://github.com/jesusgoku/arrispwod-cli",

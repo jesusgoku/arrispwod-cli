@@ -39,7 +39,7 @@ describe('Test cli application', () => {
   it('Check version', () => new Promise(resolve => {
     const cp = spawn('./src/index.js', ['--version']);
 
-    cp.stdout.on('data', data => expect(String(data).trim()).to.equal('1.0.0'));
+    cp.stdout.on('data', data => expect(String(data).trim()).to.equal('1.0.1'));
 
     cp.on('exit', (code, signal) => {
       expect(code).to.equal(0);
